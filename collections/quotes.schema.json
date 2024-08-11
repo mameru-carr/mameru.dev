@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/mameru-carr/mameru-carr.github.io/blob/main/collections/quotes.schema.json",
+  "type": "object",
+  "title": "Quotes",
+  "description": "A collection of quotes that I like",
+  "properties": {
+    "quotes": {
+      "type": "array",
+      "description": "An array of quotes with their authors if known",
+      "properties": {
+        "quote": {
+          "type": "string"
+        },
+        "author": {
+          "type": "string"
+        }
+      },
+      "required": ["quote"]
+    }
+  }
+}
