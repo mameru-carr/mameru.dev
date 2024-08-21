@@ -2,7 +2,7 @@
 </script>
 
 <template lang="pug">
-h1(class="text-xl") Mameru Carr's Blog
+h1(class="text-xl font-serif") Mameru Carr's Blog
 </template>
 
 <style scoped>
