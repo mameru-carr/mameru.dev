@@ -7,4 +7,4 @@ My Humble Blog
 This project is licensed under the [**Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License**](https://creativecommons.org/licenses/by-nc-nd/4.0/).
 
 ## Copyright
-&copy; 2024 Samuel Mameru Carr. All rights reserved.
+&copy; Samuel Mameru Carr, 2024. All rights reserved.

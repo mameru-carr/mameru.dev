@@ -1,17 +1,20 @@
 <script setup lang="ts">
 </script>
-<script>
-import { RouterView } from 'vue-router'
-import BlogHeader from '@/components/BlogHeader.vue'
 
+<script lang="ts">
+import BlogHeader from '@/components/BlogHeader.vue'
 export default {
   name: 'App',
   components: {
     BlogHeader
   }
-};
+}
 </script>
+
 <template lang="pug">
 BlogHeader
-  RouterView
 </template>
+
+<style scoped>
+
+</style>
