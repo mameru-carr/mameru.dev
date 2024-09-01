@@ -4,7 +4,7 @@ import QuoteMachine from '@/components/QuoteMachine.vue';
 
 <template lang="pug">
 header
-	h1(class="text-3xl font-mono") The Lonely Mountain
+	h1(class="text-4xl font-display") The Lonely Mountain
 	Suspense
 		QuoteMachine
 	hr
@@ -14,5 +14,5 @@ header
 header
 	margin: 1rem
 	h1
-		margin: 0.5rem 0
+		margin: 1rem
 </style>
