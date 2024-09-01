@@ -1,12 +1,21 @@
+import typography from '@tailwindcss/typography'
+
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{vue,js,ts,jsx,tsx}",
-  ],
-  theme: {
-    extend: {},
-  },
-  plugins: [],
+	content: [
+		"./index.html",
+		"./src/**/*.{vue,js,ts,jsx,tsx}",
+	],
+	theme: {
+		fontFamily: {
+			'display': ['Maname'],
+			'quote': ['Josefin Sans'],
+			'mono': ['Jetbrains Mono']
+		},
+		extend: {},
+	},
+	plugins: [
+		typography,
+	],
 }
 

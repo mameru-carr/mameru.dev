@@ -1,0 +1,33 @@
+
+/* Maname */
+@import url('https://fonts.googleapis.com/css2?family=Maname&display=swap');
+
+/* Josefin Sans */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+/* Full Versions */
+@font-face {
+  font-family: 'Jetbrains Mono';
+  src: url('/fonts/jetbrains_mono/JetBrainsMono-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Jetbrains Mono';
+  src: url('/fonts/jetbrains_mono/JetBrainsMono-Bold.woff2') format('woff2');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Jetbrains Mono';
+  src: url('/fonts/jetbrains_mono/JetBrainsMono-BoldItalic.woff2') format('woff2');
+  font-weight: bold;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Jetbrains Mono';
+  src: url('/fonts/jetbrains_mono/JetBrainsMono-Italic.woff2') format('woff2');
+  font-weight: normal;
+  font-style: italic;
+}

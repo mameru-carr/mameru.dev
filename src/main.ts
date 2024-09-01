@@ -1,5 +1,3 @@
-import './assets/main.css'
-
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 
@@ -7,7 +5,7 @@ import App from './App.vue'
 import router from './router'
 
 // tailwind css
-import './assets/tailwind.css'
+import './styles/styles.css'
 
 const app = createApp(App)
 
