@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import SphinxPage from '@/pages/SphinxPage.vue'
 import HomePage from '@/pages/HomePage.vue'
 
 const router = createRouter({
@@ -6,9 +7,14 @@ const router = createRouter({
   routes: [
 	  {
 		  "path": "/",
-		  "name": 'Home',
-		  "component": HomePage
-	  }
+		  "name": 'Sphinx',
+		  "component": SphinxPage
+	  },
+		{
+			"path": "/home",
+			"name": "Home",
+			"component": HomePage
+		}
   ]
 })
 

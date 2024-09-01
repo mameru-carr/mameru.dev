@@ -5,6 +5,6 @@ import ContainerUtility from '@/components/utilities/ContainerUtility.vue'
 </script>
 <template lang="pug">
 ContainerUtility
-	BlogHeader
-		RouterView
+    BlogHeader
+    RouterView
 </template>

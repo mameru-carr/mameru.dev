@@ -1,9 +1,12 @@
 <script setup lang="ts">
+import BlogHeader from '@/App.vue'
 </script>
 
 <template lang="pug">
-div
+main
+  p Hello
 </template>
-<style scoped>
+
+<style scoped lang="sass">
 
 </style>

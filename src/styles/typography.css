@@ -5,6 +5,12 @@
 /* Josefin Sans */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
+/* Alegreya */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400..900;1,400..900&display=swap');
+
+/* Sorts Mill Goudy */
+@import url('https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital@0;1&display=swap');
+
 /* Full Versions */
 @font-face {
   font-family: 'Jetbrains Mono';
