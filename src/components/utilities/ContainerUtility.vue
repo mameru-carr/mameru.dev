@@ -3,7 +3,7 @@
 
 <template lang="pug">
 .container
-	<slot />
+	slot
 </template>
 
 <style scoped lang="sass">

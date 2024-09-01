@@ -1,4 +1,3 @@
-
 <script setup>
 import { defineProps } from 'vue';
 const props = defineProps({
@@ -9,10 +8,12 @@ const props = defineProps({
 	author: {
 		type: String,
 		required: false,
+    default: '',
 	},
 	link: {
 		type: String,
 		required: false,
+    default: '',
 	},
 });
 

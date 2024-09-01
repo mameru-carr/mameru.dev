@@ -1,10 +1,10 @@
-<script setup lang="ts">
+<script setup>
 import { RouterView } from 'vue-router';
 import BlogHeader from '@/components/BlogHeader.vue';
-import Container from '@/components/utilities/Container.vue';
+import ContainerUtility from '@/components/utilities/ContainerUtility.vue'
 </script>
 <template lang="pug">
-Container
+ContainerUtility
 	BlogHeader
 		RouterView
 </template>
