@@ -1,5 +1,11 @@
-/* Global Style Settings */
+/********************
+ Global Style Settings
+ ********************/
 
+/* fonts */
+@import "typography.css";
+
+/* Tailwind CSS */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

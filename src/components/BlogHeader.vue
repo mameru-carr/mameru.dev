@@ -1,9 +1,18 @@
 <script setup lang="ts">
+import QuoteMachine from '@/components/QuoteMachine.vue';
 </script>
 
 <template lang="pug">
-h1(class="text-xl font-display") Mameru Carr's Blog
+header
+	h1(class="text-3xl font-mono") The Lonely Mountain
+	Suspense
+		QuoteMachine
+	hr
 </template>
 
-<style scoped>
+<style scoped lang="sass">
+header
+	margin: 1rem
+	h1
+		margin: 0.5rem 0
 </style>
