@@ -10,7 +10,7 @@ const author = ref('');
 const link = ref('');
 
 async function getQuotes() {
-  const response = await axios.get('https://raw.githubusercontent.com/mameru-carr/mameru.dev/setup/collections/quotes.json');
+  const response = await axios.get('https://raw.githubusercontent.com/mameru-carr/mameru.dev/setup/public/collections/quotes.json');
   return response.data.quotes;
 }
 
