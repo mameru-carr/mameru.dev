@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 import QuoteMachine from '@/components/QuoteMachine.vue';
 </script>
 
