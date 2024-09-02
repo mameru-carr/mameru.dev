@@ -1,10 +1,12 @@
 <script setup lang="ts">
 import axios from "axios";
-import {onMounted} from "vue";
+import {onMounted, computed, ref} from "vue";
 import { useStatsStore } from "@/stores/stats";
+import ProgrammingLanguages from "@/charts/ProgrammingLanguages.vue";
 
 const apiURL = import.meta.env.VITE_API;
 const statistics = useStatsStore();
+const stats = computed(() => statistics.data);
 
 async function loadStatistics() {
     const endpoint = 'wakatime';
@@ -23,10 +25,12 @@ onMounted(async () => {
 
 <template lang="pug">
 #uses
-    p
-        | Hello
+    template(v-if="stats")
+        figure
+            ProgrammingLanguages
 </template>
 
 <style scoped lang="sass">
-
+figure
+    height: 320px
 </style>

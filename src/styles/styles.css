@@ -2,6 +2,7 @@
  Global Style Settings
  ********************/
 
+@import "reset.css";
 /* fonts */
 @import "typography.css";
 
