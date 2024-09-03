@@ -86,7 +86,8 @@ main
                     | by #[code WakaTime].
                 li
                     strong Pug 
-                    | I wrote this blog in #[code Pug].
+                    | I wrote this blog in #[code Pug]. I love how close to plain text
+                    | it is. In some ways feels like #[code Markdown] on steroids.
 </template>
 
 <style scoped lang="sass">

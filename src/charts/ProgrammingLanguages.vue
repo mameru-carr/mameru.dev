@@ -22,8 +22,6 @@ const props = defineProps({
         required: false,
         default: 10,
     },
-    languages: {
-    }
 });
 
 const statistics = useStatsStore();
@@ -36,7 +34,9 @@ const indicators = [];
 const value = [];
 const data = [{
     name: "Programming Languages",
-    areaStyle: 'rgb(69, 133, 136, 0.3)'
+    areaStyle: {
+        color: 'rgba(69, 133, 136, 0.6)'
+    }
 }];
 
 for (const language of languages) {
@@ -60,6 +60,7 @@ data[0].value = value;
 
 const fgColor = 'rgb(40, 40, 40, 1)';
 const option = ref({
+    color: ['rgba(69, 133, 136, 0.8)'],
     radar:
     {
       indicator: indicators,
