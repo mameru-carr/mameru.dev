@@ -6,7 +6,6 @@ VChart(:option="option" autoresize)
 import { use } from "echarts/core";
 import { SVGRenderer } from "echarts/renderers";
 import { RadarChart } from "echarts/charts";
-import { TitleComponent } from "echarts/components";
 import VChart from "vue-echarts";
 import { ref, computed, defineProps } from "vue";
 import { useStatsStore } from "@/stores/stats";
@@ -14,7 +13,6 @@ import { useStatsStore } from "@/stores/stats";
 use ([
     RadarChart,
     SVGRenderer,
-    TitleComponent
 ]);
 
 const props = defineProps({
@@ -46,11 +44,6 @@ for (const language of languages) {
 
 const fgColor = '#282828';
 const option = ref({
-    title: {
-        text: "Programming Languages",
-        padding: 10,
-        left: "center",
-    },
     radar:
     {
       indicator: indicators,
