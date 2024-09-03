@@ -9,6 +9,7 @@ import { RadarChart } from "echarts/charts";
 import VChart from "vue-echarts";
 import { ref, computed, defineProps } from "vue";
 import { useStatsStore } from "@/stores/stats";
+import _ from "lodash";
 
 use ([
     RadarChart,
@@ -32,18 +33,30 @@ const list = stats.value.languages.filter((language) => iCareAbout.includes(lang
 const languages = list.slice(0, props.top);
 
 const indicators = [];
+const value = [];
 const data = [{
-    value: [],
     name: "Programming Languages",
     areaStyle: 'rgb(69, 133, 136, 0.3)'
 }];
 
 for (const language of languages) {
+    value.push(language.percent);
+}
+
+// I am displaying %'s and most are below 50
+// I don't want to keep max = 50 in the off chance that one value exceeds 50
+// So I calc max as the following so that the graph is a bit neat to look at
+const max = _.max(value) * 1.25 > 100 ? 100 : _.max(value) * 1.25;
+
+for (const language of languages) {
     indicators.push({
         name: language.name,
+        max: max
     });
-    data[0].value.push(language.percent);
 }
+
+data[0].value = value;
+
 
 const fgColor = 'rgb(40, 40, 40, 1)';
 const option = ref({
