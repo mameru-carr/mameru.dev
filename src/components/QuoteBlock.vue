@@ -20,7 +20,7 @@ const props = defineProps({
 </script>
 
 <template lang="pug">
-.quote.font-quote
+.quote
 	template(v-if="link")
 		a(
       :href="link"
@@ -30,18 +30,19 @@ const props = defineProps({
 			p.author(v-if="author") {{ author }}
 	template(v-else)
 		blockquote {{ quote }}
-		p.author(v-if="author") {{ author }}
+		p.author(v-if="author") - {{ author }}
 </template>
 
 <style scoped lang="sass">
 .quote
-	border-left: 3px solid black
-	margin: 1.5rem
-	padding-left: 1rem
+    border-left: 3px solid black
+    margin: 1.5rem
+    padding-left: 1rem
+    font-family: "Josefin Sans", sans-serif
 
-	blockquote
-		&::before 
-			content: "\201c"
-		&::after
-			content: "\201d"
+    blockquote
+        &::before 
+            content: "\201c"
+        &::after
+            content: "\201d"
 </style>

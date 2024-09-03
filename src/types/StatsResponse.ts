@@ -1,4 +1,4 @@
-type StatsResponse = {
+type StatsResponse = null | {
     "total_seconds": number //<float: total coding activity, excluding "Other" language, as seconds for the given range of time>,
     "total_seconds_including_other_language": number //<float: total coding activity as seconds for the given range of time>,
     "human_readable_total": string //<string: total coding activity, excluding "Other" language, as human readable string>,

@@ -25,26 +25,25 @@ onMounted(async () => {
 
 <template lang="pug">
 main
-    h1.text-3xl.bold Uses
-    p
-        | I have always been interested in Tools. A good tool can expand the way 
-        | you think and work. It helps you achieve more, unlock possibilities.
-        | It doesn't come in the way of your work. This is a page dedicated to the
-        | tools that I use or have to use.
+    h1.text-3xl Uses
+    p.
+        I have always been interested in Tools. A good tool can expand the way 
+        you think and work. It helps you achieve more, unlock possibilities.
+        It doesn't come in the way of your work. This is a page dedicated to the
+        tools that I use or have to use.
     section(v-if="stats")
-        figure
-            ProgrammingLanguages
+        h2.text-2xl Programming Languages
+            .chart
+                p.
+                    I use #[code C#], #[code Vue.js] at work and for my hobby 
+                    projects. Although #[code Markdown] is not a programming 
+                    languaage, it is what I take notes in so I have included it
+                    here.
+                figure
+                    ProgrammingLanguages
 </template>
 
 <style scoped lang="sass">
-main
-    font-family: "Alegreya", serif
-    h1, h2, h3, h4
-        font-family: "Alegreya SC", serif
-    p
-        padding: 1rem
-        font-size: 1.25rem
-        line-height: 1.5rem
 figure
     height: 320px
 </style>

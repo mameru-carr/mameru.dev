@@ -28,7 +28,7 @@ const props = defineProps({
 
 const statistics = useStatsStore();
 const stats = computed(() => statistics.data);
-const iCareAbout = ["Python", "C#", "Vue.js", "TypeScript", "JavaScript", "Bash", "SQL", "Python", "Markdown"]
+const iCareAbout = ["Python", "C#", "Vue.js", "TypeScript", "JavaScript", "Bash", "SQL", "Python", "Markdown", "Rust"]
 const list = stats.value.languages.filter((language) => iCareAbout.includes(language.name));
 const languages = list.slice(0, props.top);
 
