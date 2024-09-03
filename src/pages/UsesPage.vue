@@ -70,29 +70,26 @@ main
                 Editors
         section
             h2.text-2xl Programming Tools
-            p
-                ul
-                    li
-                        strong Bun 
-                        | for all my hobby projects. It is blazingly fast and I
-                        | do many things without using an additional tool or
-                        | library.
-                    li
-                        strong Terminator 
-                        | Shell
-                    li
-                        strong WakaTime 
-                        | Dashboard that tracks my development activity. All the
-                        | graphs you see in this page are based on activity tracked
-                        | by #[code WakaTime].
-                    li
-                        strong Pug 
-                        | I wrote this blog in #[code Pug].
+            ul
+                li
+                    strong Bun 
+                    | for all my hobby projects. It is blazingly fast and I
+                    | do many things without using an additional tool or
+                    | library.
+                li
+                    strong Terminator 
+                    | Shell
+                li
+                    strong WakaTime 
+                    | Dashboard that tracks my development activity. All the
+                    | graphs you see in this page are based on activity tracked
+                    | by #[code WakaTime].
+                li
+                    strong Pug 
+                    | I wrote this blog in #[code Pug].
 </template>
 
 <style scoped lang="sass">
 figure
     height: 320px
-li
-    margin-bottom: 1rem
 </style>

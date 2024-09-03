@@ -38,6 +38,10 @@ main code {
     font-size: 1rem;
 }
 
+main ul {
+    padding: 1rem;
+}
+
 main ul li {
     font-family: "Alegreya", serif;
     font-size: 1.25rem;
