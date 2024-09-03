@@ -62,7 +62,7 @@ main
                 is just brilliant.
 
             p.
-                I take all my notes in #[code Obsidian]. I use it as my Zettelkasten or a garden
+                I take all my notes in #[code Obsidian]. I use it as my Zettelkasten, a garden
                 for my notes. At it's core it is a #[code Markdown] editor but it's rich plugin 
                 ecosytem take it out of the park. I also sometimes use #[code NeoVim] with 
                 #[code Goyo] to take notes.
@@ -88,6 +88,22 @@ main
                     strong Pug 
                     | I wrote this blog in #[code Pug]. I love how close to plain text
                     | it is. In some ways feels like #[code Markdown] on steroids.
+        section
+            h2.text-2xl Fonts
+            ul
+                li
+                    strong Alegreya Family 
+                    | A delightful family of free fonts. I use it to for my notes and to read
+                    | E-Books. It is also the font I have employed for this blog. The family also includes a 
+                    span.font-serif_sc small caps 
+                    | variant that I love to use for headings.
+                li
+                    strong JetBrains Mono 
+                    | My goto font for reading and writing code. Personally, I love the ligatures
+                    | I have yet to run into any readability issues. But, I understand why
+                    | they can be a turn off.
+        section
+            h2.text-2xl Fonts
 </template>
 
 <style scoped lang="sass">
