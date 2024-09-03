@@ -36,9 +36,11 @@ main
             .chart
                 p.
                     I use #[code C#], #[code Vue.js] at work and for my hobby 
-                    projects. Although #[code Markdown] is not a programming 
-                    languaage, it is what I take notes in so I have included it
-                    here.
+                    projects. I absolutely adore them. 
+                p.  
+                    Although #[code Markdown] 
+                    is not a programming language, it is what I take notes in so I 
+                    have included it here.
                 figure
                     ProgrammingLanguages
 </template>

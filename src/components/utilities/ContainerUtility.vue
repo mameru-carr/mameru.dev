@@ -8,6 +8,6 @@
 
 <style scoped lang="sass">
 .container
-	max-width: 60ch
-	margin: 0 auto
+    max-width: 75ch
+    margin: 0 auto
 </style>

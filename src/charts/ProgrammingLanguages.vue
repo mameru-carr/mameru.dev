@@ -97,6 +97,4 @@ const option = ref({
 </script>
 
 <style scoped lang="sass">
-.echarts
-    height: 320px
 </style>
