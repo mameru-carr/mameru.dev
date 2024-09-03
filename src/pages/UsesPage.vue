@@ -102,8 +102,6 @@ main
                     | My goto font for reading and writing code. Personally, I love the ligatures
                     | I have yet to run into any readability issues. But, I understand why
                     | they can be a turn off.
-        section
-            h2.text-2xl Fonts
 </template>
 
 <style scoped lang="sass">
