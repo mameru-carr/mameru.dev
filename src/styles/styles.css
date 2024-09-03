@@ -10,3 +10,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    background-color: #fbf1c7;
+}
+
+main {
+    padding: 1rem;
+    margin: 1rem;
+    max-width: 60ch;
+}

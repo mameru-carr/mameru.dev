@@ -10,7 +10,9 @@ export default {
 		fontFamily: {
 			'display': ['Maname'],
 			'quote': ['Josefin Sans'],
-			'mono': ['Jetbrains Mono']
+			'mono': ['Jetbrains Mono'],
+            'serif': ['Alegreya'],
+            'serif_sc': ['Alegreya SC'],
 		},
 		extend: {},
 	},

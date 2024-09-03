@@ -24,13 +24,22 @@ onMounted(async () => {
 </script>
 
 <template lang="pug">
-#uses
-    template(v-if="stats")
+main
+    h1.text-3xl Uses
+    p
+        | I have always been interested in Tools. A good tool can expand the way 
+        | you think and work. It helps you achieve more, unlock possibilities.
+    section(v-if="stats")
         figure
             ProgrammingLanguages
 </template>
 
 <style scoped lang="sass">
+main
+    font-family: 'Alegreya', 'serif'
+    p
+        padding: 1rem
+        font-size: 1.25rem
 figure
     height: 320px
 </style>
