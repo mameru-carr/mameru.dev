@@ -19,7 +19,7 @@ const props = defineProps({
     top: {
         type: Number,
         required: false,
-        default: 5,
+        default: 10,
     },
     languages: {
     }
@@ -27,12 +27,15 @@ const props = defineProps({
 
 const statistics = useStatsStore();
 const stats = computed(() => statistics.data);
-const languages = stats.value.languages.slice(0, props.top);
+const iCareAbout = ["Python", "C#", "Vue.js", "TypeScript", "JavaScript", "Bash", "SQL", "Python", "Markdown"]
+const list = stats.value.languages.filter((language) => iCareAbout.includes(language.name));
+const languages = list.slice(0, props.top);
 
 const indicators = [];
 const data = [{
     value: [],
-    name: "Programming Languages"
+    name: "Programming Languages",
+    areaStyle: 'rgb(69, 133, 136, 0.3)'
 }];
 
 for (const language of languages) {
@@ -42,7 +45,7 @@ for (const language of languages) {
     data[0].value.push(language.percent);
 }
 
-const fgColor = '#282828';
+const fgColor = 'rgb(40, 40, 40, 1)';
 const option = ref({
     radar:
     {
@@ -57,18 +60,18 @@ const option = ref({
       },
       splitArea: {
         areaStyle: {
-          shadowColor: 'rgba(0, 0, 0, 0.2)',
+          shadowColor: 'rgba(0, 0, 0, 0.4)',
           shadowBlur: 10
         }
       },
       axisLine: {
         lineStyle: {
-          color: fgColor
+          color: 'rgb(40, 40, 40, 0.3)'
         }
       },
       splitLine: {
         lineStyle: {
-          color: fgColor
+          color: 'rgb(40, 40, 40, 0.5)'
         }
       }
     },
