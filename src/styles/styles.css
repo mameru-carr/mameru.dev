@@ -11,6 +11,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+    font-size: 18px;
+}
+
 body {
     background-color: #fbf1c7;
     color: #3c3836;
@@ -21,16 +25,7 @@ main {
     margin: 1rem;
 }
 
-
-h1, h2, h3, h4 {
-    font-family: "Alegreya SC", serif;
-}
-
-h2::before, h3::before, h4::before {
-        content: "§";
-}
-
-main p{
+main p {
     font-family: "Alegreya", serif;
     font-weight: normal;
     padding: 1rem;
@@ -41,4 +36,18 @@ main p{
 main code {
     font-family: "Jetbrains Mono", monospace;
     font-size: 1rem;
+}
+
+main ul li {
+    font-family: "Alegreya", serif;
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+h1, h2, h3, h4 {
+    font-family: "Alegreya SC", serif;
+}
+
+h2::before, h3::before, h4::before {
+    content: "§ ";
 }
