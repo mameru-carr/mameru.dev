@@ -16,11 +16,6 @@ const router = createRouter({
 		  "name": "Uses",
 		  "component": UsesPage
 	  },
-      {
-          "path": "/now",
-          "name": "Now",
-          "component": NowPage
-      }
   ]
 })
 

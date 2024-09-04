@@ -57,3 +57,8 @@ h1, h2, h3, h4 {
 h2::before, h3::before, h4::before {
     content: "§ ";
 }
+
+main a::after {
+    content: "°";
+    color: #cc241d;
+}

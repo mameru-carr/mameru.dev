@@ -1,8 +1,11 @@
 <script setup>
 import QuoteMachine from '@/components/QuoteMachine.vue';
 import router from "@/router";
+import { useRouter } from "vue-router";
 
 const hr = "◃◄◀◇◈◉◈◇▶►▹ "
+const route = useRouter();
+console.log(router.getRoutes());
 </script>
 
 <template lang="pug">
