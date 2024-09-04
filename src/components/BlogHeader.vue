@@ -1,5 +1,6 @@
 <script setup>
 import QuoteMachine from '@/components/QuoteMachine.vue';
+import router from "@/router";
 </script>
 
 <template lang="pug">
@@ -10,11 +11,11 @@ header
     nav
         ul
             li
-                a(href="/home") Home
+                button(type="button" @click="router.push({ name: 'Home' })") Home
             li
-                a(href="/uses") Uses
+                button(type="button" @click="router.push({ name: 'Uses' })") Uses
             li
-                a(href="/now") Now
+                button(type="button" @click="router.push({ name: 'Now' })") Now
     hr
 </template>
 
