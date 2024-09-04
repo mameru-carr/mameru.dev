@@ -65,4 +65,7 @@ div(:class="{ urdu: isUrdu(quote), quote: !isUrdu(quote) }")
             content: "\201d"
         &::after
             content: "\201c"
+    .author
+        font-family: "Josefin Sans", sans-serif
+
 </style>

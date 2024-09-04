@@ -1,6 +1,8 @@
 <script setup>
 import QuoteMachine from '@/components/QuoteMachine.vue';
 import router from "@/router";
+
+const hr = "◃◄◀◇◈◉◈◇▶►▹ "
 </script>
 
 <template lang="pug">
@@ -18,6 +20,11 @@ header
 </template>
 
 <style scoped lang="sass">
+
+hr
+    border: 0
+    height: 2px
+    background: #282828
 header
     margin: 1rem
     h1
