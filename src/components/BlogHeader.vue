@@ -1,11 +1,12 @@
 <script setup>
 import QuoteMachine from '@/components/QuoteMachine.vue';
 import router from "@/router";
-import { useRouter } from "vue-router";
+import { computed } from "vue";
 
 const hr = "◃◄◀◇◈◉◈◇▶►▹ "
-const route = useRouter();
-console.log(router.getRoutes());
+const currentRoute = computed(() => router.currentRoute.value.name);
+const routes = router.getRoutes();
+console.log(routes);
 </script>
 
 <template lang="pug">
@@ -15,10 +16,8 @@ header
         QuoteMachine
     nav
         ul
-            li
-                button(type="button" @click="router.push({ name: 'Home' })") Home
-            li
-                button(type="button" @click="router.push({ name: 'Uses' })") Uses
+            li(v-for="route in routes")
+                button(type="button" @click="router.push({ name: route.name })") {{ route.name }}
     hr
 </template>
 
