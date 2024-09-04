@@ -14,8 +14,6 @@ header
                 button(type="button" @click="router.push({ name: 'Home' })") Home
             li
                 button(type="button" @click="router.push({ name: 'Uses' })") Uses
-            li
-                button(type="button" @click="router.push({ name: 'Now' })") Now
     hr
 </template>
 

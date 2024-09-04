@@ -18,6 +18,26 @@ main
     section
         h2.text-2xl Learn Chess
 
+    section
+        h2.text-2xl Projects
+            h3.text-xl Amalnamah
+            p
+                em C#, Vue.js
+            p.
+                A highly configurable and flexible task manager that doubles as a
+                habbit tracker.
+            h3.text-xl mameru.dev
+            p
+                em C#, Vue.js
+            p.
+                This Blog.
+            h3.text-xl ByteUstad
+            p
+                em
+                    React
+            p.
+                A website where I write tutorials, guides for 'Advanced' Beginners along
+                with my friend #[a(href='#') Akshara A]
 </template>
 
 <style scoped lang="sass">
