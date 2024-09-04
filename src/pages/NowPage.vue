@@ -3,6 +3,20 @@
 </script>
 
 <template lang="pug">
+main
+    h1.text-3xl Now
+    p.
+        I am at a very important and pivotal stage in my life. So, I am mostly
+        trying to explore things that interest me while working hard on the
+        fundamentals.
+    section
+        h2.text-2xl Learn TypeScript, Vue.js and C#
+        p.
+            These are the languages that I use the most. So it is imperative that
+            I am strong in them. I am trying to publish everything that I learn.
+            Both, as an incentive to learn and as a way to give back to the community.
+    section
+        h2.text-2xl Learn Chess
 
 </template>
 

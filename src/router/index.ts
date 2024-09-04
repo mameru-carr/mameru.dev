@@ -20,6 +20,7 @@ const router = createRouter({
           "path": "/now",
           "name": "Now",
           "component": NowPage
+      }
   ]
 })
 

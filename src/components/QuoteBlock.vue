@@ -42,8 +42,8 @@ div(:class="{ urdu: isUrdu(quote), quote: !isUrdu(quote) }")
 <style scoped lang="sass">
 .quote
     border-left: 3px solid black
-    margin: 1.5rem
     padding: 0 1rem
+    margin: 0.5rem 1.5rem
     font-family: "Josefin Sans", sans-serif
 
     blockquote
@@ -55,7 +55,7 @@ div(:class="{ urdu: isUrdu(quote), quote: !isUrdu(quote) }")
 .urdu
     font-family: "Markazi Text", serif
     font-size: 1.25rem
-    margin: 1.5rem
+    margin: 0.5rem 1.5rem
     padding: 0 1rem
     direction: rtl
     border-right: 3px solid black
