@@ -50,15 +50,25 @@ main ul li {
 }
 
 h1, h2, h3, h4 {
-    font-family: "Alegreya SC", serif;
+    font-family: "Marcellus SC", serif;
     font-kerning: auto;
+    margin-top: 1rem;
 }
 
 h2::before, h3::before, h4::before {
     content: "§ ";
 }
 
+main > h1 {
+    margin-top: 0;
+}
+
 main a::after {
     content: "°";
     color: #cc241d;
+}
+
+main a:hover {
+    background-color: #f2e5bc;
+    border-radius: 10px;
 }
