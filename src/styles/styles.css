@@ -12,7 +12,7 @@
 @tailwind utilities;
 
 html {
-    font-size: 18px;
+    font-size: 20px;
 }
 
 body {
@@ -27,6 +27,7 @@ main {
 
 main p {
     font-family: "Alegreya", serif;
+    font-kerning: auto;
     font-weight: normal;
     padding: 1rem;
     font-size: 1.25rem;
@@ -34,7 +35,7 @@ main p {
 }
 
 main code {
-    font-family: "M PLUS Code", monospace;
+    font-family: "JetBrains Mono", monospace;
     font-size: 1rem;
 }
 
@@ -50,6 +51,7 @@ main ul li {
 
 h1, h2, h3, h4 {
     font-family: "Alegreya SC", serif;
+    font-kerning: auto;
 }
 
 h2::before, h3::before, h4::before {

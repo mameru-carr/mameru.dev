@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import { defineProps } from 'vue';
 const props = defineProps({
 	quote: {
@@ -8,19 +8,25 @@ const props = defineProps({
 	author: {
 		type: String,
 		required: false,
-    default: '',
+        default: '',
 	},
 	link: {
 		type: String,
 		required: false,
-    default: '',
+        default: '',
 	},
 });
+
+function isUrdu(quote: string) {
+    const words = quote.split(' ');
+    const regex = /[\u0600-\u06ff]+|[\u0750-\u077f]+|[\ufb50-\ufc3f]+|[\ufe70-\ufefc]+/
+    return regex.test(words[0]);
+}
 
 </script>
 
 <template lang="pug">
-.quote
+div(:class="{ urdu: isUrdu(quote), quote: !isUrdu(quote) }")
 	template(v-if="link")
 		a(
       :href="link"
@@ -37,7 +43,7 @@ const props = defineProps({
 .quote
     border-left: 3px solid black
     margin: 1.5rem
-    padding-left: 1rem
+    padding: 0 1rem
     font-family: "Josefin Sans", sans-serif
 
     blockquote
@@ -45,4 +51,18 @@ const props = defineProps({
             content: "\201c"
         &::after
             content: "\201d"
+    
+.urdu
+    font-family: "Markazi Text", serif
+    font-size: 1.25rem
+    margin: 1.5rem
+    padding: 0 1rem
+    direction: rtl
+    border-right: 3px solid black
+
+    blockquote
+        &::before 
+            content: "\201d"
+        &::after
+            content: "\201c"
 </style>
