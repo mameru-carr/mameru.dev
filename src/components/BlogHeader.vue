@@ -6,7 +6,6 @@ import { computed } from "vue";
 const hr = "◃◄◀◇◈◉◈◇▶►▹ "
 const currentRoute = computed(() => router.currentRoute.value.name);
 const routes = router.getRoutes();
-console.log(routes);
 </script>
 
 <template lang="pug">
@@ -16,8 +15,13 @@ header
         QuoteMachine
     nav
         ul
-            li(v-for="route in routes")
-                button(type="button" @click="router.push({ name: route.name })") {{ route.name }}
+            li(v-for="route in routes" :key="route.name")
+                button(
+                    type="button" 
+                    @click="router.push({ name: route.name })"
+                    :class="{ active: currentRoute === route.name }"  
+                    )
+                        | {{ route.name }}
     hr
 </template>
 
@@ -40,4 +44,6 @@ header
             li
                 padding: 0.5rem
                 font-family: "Alegreya SC", serif
+                .active
+                    text-decoration: underline
 </style>
