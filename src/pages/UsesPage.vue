@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import axios from "axios";
-import {onMounted, computed, ref} from "vue";
+import {onMounted, computed } from "vue";
 import { useStatsStore } from "@/stores/stats";
 import ProgrammingLanguages from "@/charts/ProgrammingLanguages.vue";
 import Editors from "@/charts/Editors.vue";

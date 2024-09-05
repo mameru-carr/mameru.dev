@@ -4,6 +4,7 @@ import UsesPage from "@/pages/UsesPage.vue";
 import NowPage from "@/pages/NowPage.vue";
 import ProjectsPage from "@/pages/ProjectsPage.vue";
 import HunderedNightsOfCode from "@/pages/projects/HunderedNightsOfCode.vue";
+import ChessProject from "@/pages/projects/ChessProject.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -27,6 +28,11 @@ const router = createRouter({
           "path": "/projects/101NightsOfCode",
           "name": "HunderedNightsOfCode",
           "component": HunderedNightsOfCode
+      },
+      {
+          "path": "/projects/Chess",
+          "name": "Chess",
+          "component": ChessProject
       }
   ]
 })
