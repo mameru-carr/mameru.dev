@@ -50,7 +50,7 @@ main ul li {
 }
 
 h1, h2, h3, h4 {
-    font-family: "Marcellus SC", serif;
+    font-family: "Oswald", sans-serif;
     font-kerning: auto;
     margin-top: 1rem;
 }
@@ -67,12 +67,12 @@ main a {
     cursor: pointer;
 }
 
-main a::after {
+main p a::after {
     content: "°";
     color: #cc241d;
 }
 
-main a:hover {
+main p a:hover {
     background-color: #f2e5bc;
     border-radius: 10px;
 }
