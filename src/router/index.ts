@@ -24,6 +24,11 @@ const router = createRouter({
 		  "name": "Uses",
 		  "component": UsesPage
 	  },
+	  {
+		  "path": "/now",
+		  "name": "Now",
+		  "component": NowPage
+	  },
       {
           "path": "/projects/101NightsOfCode",
           "name": "HunderedNightsOfCode",

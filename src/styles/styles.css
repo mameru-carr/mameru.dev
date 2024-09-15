@@ -29,7 +29,7 @@ main p {
     font-family: "Alegreya", serif;
     font-kerning: auto;
     font-weight: normal;
-    padding: 1rem;
+    padding: 0.5rem;
     font-size: 1.25rem;
     line-height: 1.5rem;
 }

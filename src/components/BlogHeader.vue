@@ -5,7 +5,7 @@ import { computed } from "vue";
 
 const hr = "◃◄◀◇◈◉◈◇▶►▹ "
 const currentRoute = computed(() => router.currentRoute.value.name);
-const navigationBar = ["Home", "Uses", "Projects"]
+const navigationBar = ["Home", "Uses", "Now"]
 const routes = router.getRoutes().filter((route) => navigationBar.includes(route.name));
 </script>
 

@@ -27,7 +27,7 @@ onMounted(async () => {
 
 <template lang="pug">
 main
-    h1.text-3xl Uses
+    h1.text-4xl Uses
     p.
         I have always been interested in Tools. A good tool can expand the way 
         you think and work. It helps you achieve more, unlock possibilities.
@@ -35,7 +35,7 @@ main
         tools that I use or have to use.
 
     section
-        h2.text-2xl Programming Languages
+        h2.text-3xl Programming Languages
         p.
             I use #[code C#], #[code Vue.js] at work and for my hobby 
             projects. I absolutely adore them. 
@@ -52,7 +52,7 @@ main
         figure(v-else)
             Loader
     section
-        h2.text-2xl Code and Text Editors
+        h2.text-3xl Code and Text Editors
         p.
             For all my personal projects I use #[code NeoVim]. It is unobtrusive,
             elegant and a joy to work with.
@@ -74,7 +74,7 @@ main
         figure(v-else)
             Loader
     section
-        h2.text-2xl Programming Tools
+        h2.text-3xl Programming Tools
         ul
             li
                 strong Bun 
@@ -94,7 +94,7 @@ main
                 | I wrote this blog in #[code Pug]. In some ways feels like 
                 | #[code Markdown] on steroids.
     section
-        h2.text-2xl Fonts
+        h2.text-3xl Fonts
         ul
             li
                 strong Alegreya Family 
