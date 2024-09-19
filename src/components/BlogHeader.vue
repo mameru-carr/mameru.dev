@@ -5,7 +5,7 @@ import { computed } from "vue";
 
 const hr = "◃◄◀◇◈◉◈◇▶►▹ "
 const currentRoute = computed(() => router.currentRoute.value.name);
-const navigationBar = ["Home", "Uses", "Now"]
+const navigationBar = ["Home", "Uses", "Now", "Projects"]
 const routes = router.getRoutes().filter((route) => navigationBar.includes(route.name));
 </script>
 
@@ -44,6 +44,7 @@ header
             
             li
                 padding: 0.5rem
+                color: goldenrod
                 font-family: "Alegreya SC", serif
                 .active
                     text-decoration: underline

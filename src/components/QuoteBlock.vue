@@ -44,6 +44,7 @@ div(:class="{ urdu: isUrdu(quote), quote: !isUrdu(quote) }")
     border-left: 3px solid black
     padding: 0 1rem
     margin: 0.5rem 1.5rem
+    color: navy
     font-family: "Josefin Sans", sans-serif
 
     blockquote
@@ -57,6 +58,7 @@ div(:class="{ urdu: isUrdu(quote), quote: !isUrdu(quote) }")
     font-size: 1.25rem
     margin: 0.5rem 1.5rem
     padding: 0 1rem
+    color: navy
     direction: rtl
     border-right: 3px solid black
 
@@ -67,5 +69,4 @@ div(:class="{ urdu: isUrdu(quote), quote: !isUrdu(quote) }")
             content: "\201c"
     .author
         font-family: "Josefin Sans", sans-serif
-
 </style>

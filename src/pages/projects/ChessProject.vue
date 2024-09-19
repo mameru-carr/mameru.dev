@@ -74,8 +74,10 @@ main
             It was because I moved #[em fast]. I would blunder and resign within the first 2-3 minutes of a Rapid Game.
             I was playing as if I was a Blitz Champion.
         p
-            | Once I slowed down and took my time, careful so as to not blunder I was able to win 3 matches in a row.
-        img(src="/images/blunder_king.png")
+            | Once I slowed down and took my time, careful so as to not blunder I was able to win 3 matches in a row!
+        figure
+            img(src="/images/blunder_king.png")
+            figcaption Chess Ratings as on 18th, September, 2024
 </template>
 
 <style scoped lang="sass">

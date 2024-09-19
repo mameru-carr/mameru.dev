@@ -7,7 +7,7 @@ main
     h1.text-4xl Projects
     section
         h2.text-3xl
-            a(@click="router.push({ name: 'HunderedNightsOfCode' })") 101 Nights Of Code
+            a(@click="router.push({ name: 'HundredNightsOfCode' })") 101 Nights Of Code
         p.
             I build stuff for 101 Nights, while meticulously tracking 
             and journaling everything.

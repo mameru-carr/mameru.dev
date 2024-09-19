@@ -3,7 +3,7 @@ import HomePage from '@/pages/HomePage.vue'
 import UsesPage from "@/pages/UsesPage.vue";
 import NowPage from "@/pages/NowPage.vue";
 import ProjectsPage from "@/pages/ProjectsPage.vue";
-import HunderedNightsOfCode from "@/pages/projects/HunderedNightsOfCode.vue";
+import HundredNightsOfCode from "@/pages/projects/HundredNightsOfCode.vue";
 import ChessProject from "@/pages/projects/ChessProject.vue";
 
 const router = createRouter({
@@ -31,8 +31,8 @@ const router = createRouter({
 	  },
       {
           "path": "/projects/101NightsOfCode",
-          "name": "HunderedNightsOfCode",
-          "component": HunderedNightsOfCode
+          "name": "HundredNightsOfCode",
+          "component": HundredNightsOfCode
       },
       {
           "path": "/projects/Chess",
