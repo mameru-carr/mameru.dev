@@ -1,5 +1,12 @@
 {
   "quotes": [
+      {
+          "quote": "He who lives by the sword, shall die by the sword"
+      },
+    {
+        "quote": "Premature Optimization is the root of all evil",
+        "author": "Donald Knuth"
+    },
     {
       "quote": "Why is the rum always gone?"
     },

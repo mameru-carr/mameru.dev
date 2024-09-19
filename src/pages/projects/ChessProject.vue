@@ -58,7 +58,7 @@ main
             going through it I though it was neat and affordable so, I bought it.
         p.
             The first path that I learned was the most popular one: 
-            e4 — the #[a(href="https://en.wikipedia.org/wiki/King%27s_Pawn_Game" target="_blank") King's Pawn Game].
+            #[code e4-e5] — the #[a(href="https://en.wikipedia.org/wiki/King%27s_Pawn_Game" target="_blank") King's Pawn Game].
             There were many openings to choose from and I chose the top most one which is the 
             #[a(href="https://en.wikipedia.org/wiki/Ruy_Lopez" target="_blank") Ruy Lopez]. I went
             through a lot of the paths and was confident enough to attempt a match.
@@ -67,6 +67,15 @@ main
             I won't do that again. The second time, I was white. I played the Ruy. And won! My opponent resigned.
             My first upward bump in the rating chart. My first win in chess with a stranger. Today is a good
             day! Due credits go to #[a(href="https://chessbook.com") ChessBook](not sponsored).
+    section
+        h2.text-2xl Blunder King
+        p.
+            I lost a ton of matches. It was because I was blundering pieces left and right.
+            It was because I moved #[em fast]. I would blunder and resign within the first 2-3 minutes of a Rapid Game.
+            I was playing as if I was a Blitz Champion.
+        p
+            | Once I slowed down and took my time, careful so as to not blunder I was able to win 3 matches in a row.
+        img(src="/images/blunder_king.png")
 </template>
 
 <style scoped lang="sass">

@@ -30,8 +30,9 @@ main p {
     font-kerning: auto;
     font-weight: normal;
     padding: 0.5rem;
+    margin-left: 0.5rem;
     font-size: 1.25rem;
-    line-height: 1.5rem;
+    line-height: 1.75rem;
 }
 
 main code {
