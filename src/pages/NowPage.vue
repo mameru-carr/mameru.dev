@@ -34,12 +34,12 @@ main
         p.
             A highly configurable and flexible task manager that doubles as a
             habbit tracker.
-        h3.text-xl mameru.dev
+        h4.text-xl mameru.dev
         p.subtitle
             em TypeScript, Vue.js
         p.
             This Blog.
-        h3.text-xl ByteUstad
+        h4.text-xl ByteUstad
         p.subtitle
             em
                 React
