@@ -8,13 +8,11 @@
         "author": "Donald Knuth"
     },
     {
-      "quote": "Why is the rum always gone?"
+      "quote": "Why is the rum always gone?",
+      "author": "Jack Sparrow"
     },
     {
       "quote": "Be brave enough to try something new"
-    },
-    {
-      "quote": "The embarrassment is the price for the experience"
     },
     {
       "quote": "You cannot get lost, if you don't know where you are going"
@@ -152,10 +150,6 @@
     },
     {
         "quote": "Dying is the day worth living for.",
-        "author": "Barbossa"
-    },
-    {
-        "quote": "Dearly Beloved, we be gathered here today... to nail yer gizzard to the mast, yer poxy cur!",
         "author": "Barbossa"
     },
     {
