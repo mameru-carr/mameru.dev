@@ -28,24 +28,24 @@ main
     section
         h2.text-3xl Currently Making
         h3.text-2xl Projects
-            h3.text-xl Amalnamah
-            p.subtitle
-                em TypeScript, Vue.js
-            p.
-                A highly configurable and flexible task manager that doubles as a
-                habbit tracker.
-            h3.text-xl mameru.dev
-            p.subtitle
-                em TypeScript, Vue.js
-            p.
-                This Blog.
-            h3.text-xl ByteUstad
-            p.subtitle
-                em
-                    React
-            p.
-                A website where I write tutorials, guides for Advanced Beginners along
-                with my friend #[a(href='https://toherchoice.blogspot.com/') Akshara A].
+        h4.text-xl Amalnamah
+        p.subtitle
+            em TypeScript, Vue.js
+        p.
+            A highly configurable and flexible task manager that doubles as a
+            habbit tracker.
+        h3.text-xl mameru.dev
+        p.subtitle
+            em TypeScript, Vue.js
+        p.
+            This Blog.
+        h3.text-xl ByteUstad
+        p.subtitle
+            em
+                React
+        p.
+            A website where I write tutorials, guides for Advanced Beginners along
+            with my friend #[a(href='https://toherchoice.blogspot.com/') Akshara A].
 </template>
 
 <style scoped lang="sass">
